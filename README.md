@@ -37,6 +37,8 @@ set showmode
 " Show matching brackets
 set showmatch</pre>
 
+<h1>Debian GNOME</h1>
+
 <h3>Change system font in Gnome:</h3>
 Edit this file: `/usr/share/gnome-shell/theme/gnome-shell.css`
 The value we are looking for is this:
@@ -48,3 +50,36 @@ stage {
 }</pre>
 
 Change from `cantarell` to whatever font that is easier on the eyes.
+
+<h2>Fix font issue(s) in Firefox:</h2>
+(https://is.gd/xzgdN2)<br>
+Add the below to `$HOME/.fonts.conf`:<br>
+<pre><?xml version='1.0'?>
+<!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
+<fontconfig>
+ <match target="font">
+  <edit mode="assign" name="rgba">
+   <const>rgb</const>
+  </edit>
+ </match>
+ <match target="font">
+  <edit mode="assign" name="hinting">
+   <bool>true</bool>
+  </edit>
+ </match>
+ <match target="font">
+  <edit mode="assign" name="hintstyle">
+   <const>hintslight</const>
+  </edit>
+ </match>
+ <match target="font">
+  <edit mode="assign" name="antialias">
+   <bool>true</bool>
+  </edit>
+ </match>
+  <match target="font">
+  <edit mode="assign" name="lcdfilter">
+    <const>lcddefault</const>
+  </edit>
+  </match>
+</fontconfig></pre>
