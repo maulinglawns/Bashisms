@@ -42,7 +42,7 @@ Edit this file: `/usr/share/gnome-shell/theme/gnome-shell.css`
 The value we are looking for is this:
 <pre>/* default text style */
 stage {
-font-family: <b>cantarell</b>, sans-serif;
+    font-family: <b>cantarell</b>, sans-serif;
     font-size: 11pt;
     color: white;
 }</pre>
