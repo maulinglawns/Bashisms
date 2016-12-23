@@ -54,7 +54,9 @@ Change from `cantarell` to whatever font that is easier on the eyes.
 <h2>Fix font issue(s) in Firefox:</h2>
 (https://is.gd/xzgdN2)<br>
 Add the below to `$HOME/.fonts.conf`:<br>
-<code><?xml version='1.0'?>
+
+```xml
+<?xml version='1.0'?>
 <!DOCTYPE fontconfig SYSTEM 'fonts.dtd'>
 <fontconfig>
  <match target="font">
@@ -82,4 +84,4 @@ Add the below to `$HOME/.fonts.conf`:<br>
     <const>lcddefault</const>
   </edit>
   </match>
-</fontconfig></code>
+</fontconfig>```
