@@ -37,7 +37,7 @@ set showmode
 " Show matching brackets
 set showmatch</pre>
 
-Change system font in Gnome:
+<h3>Change system font in Gnome:</h3>
 Edit this file: `/usr/share/gnome-shell/theme/gnome-shell.css`
 The value we are looking for is this:
 <pre>/* default text style */
