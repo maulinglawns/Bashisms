@@ -84,4 +84,5 @@ Add the below to `$HOME/.fonts.conf`:<br>
     <const>lcddefault</const>
   </edit>
   </match>
-</fontconfig>```
+</fontconfig>
+```
