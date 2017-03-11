@@ -86,3 +86,10 @@ Add the below to `$HOME/.fonts.conf`:<br>
   </match>
 </fontconfig>
 ```
+
+<h3>Disable annoying sound events</h3>
+Run `dconf-editor`
+Browse to:
+`org/gnome/desktop/sound`
+Untick **event-sounds**
+Done!
