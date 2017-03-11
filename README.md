@@ -88,8 +88,9 @@ Add the below to `$HOME/.fonts.conf`:<br>
 ```
 
 <h3>Disable annoying sound events</h3>
-Run `dconf-editor`
-Browse to:
-`org/gnome/desktop/sound`
-Untick **event-sounds**
+--
+Run `dconf-editor`<br />
+Browse to:<br />
+`org/gnome/desktop/sound`<br />
+Untick **event-sounds**<br />
 Done!
