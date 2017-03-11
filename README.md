@@ -86,9 +86,7 @@ Add the below to `$HOME/.fonts.conf`:<br>
   </match>
 </fontconfig>
 ```
-
 <h3>Disable annoying sound events</h3>
---
 Run `dconf-editor`<br />
 Browse to:<br />
 `org/gnome/desktop/sound`<br />
