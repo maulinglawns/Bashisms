@@ -89,6 +89,7 @@ Add the below to `$HOME/.fonts.conf`:<br>
 
 
 <h2>Disable annoying sound events</h2>
+
 Run `dconf-editor`
 
 Browse to:
