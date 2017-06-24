@@ -103,7 +103,7 @@ Untick **event-sounds**
 Done!
 
 
-<h2>iwlwifi hacks</h2>
+<h1>iwlwifi hacks</h1>
 <pre>
 magnus@debian-probook:~$ cat /etc/modprobe.d/iwlwifi.conf 
 # Below line is to stop wifi disconnecting at random intervals
