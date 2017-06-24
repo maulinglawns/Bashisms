@@ -40,6 +40,7 @@ set showmatch</pre>
 <h1>Debian GNOME</h1>
 
 <h3>Change system font in Gnome:</h3>
+
 Edit `/usr/share/gnome-shell/theme/gnome-shell.css`
 The value we are looking for is this:
 <pre>/* default text style */
@@ -53,7 +54,7 @@ Change from `cantarell` to whatever font that is easier on the eyes.
 
 <h2>Fix font issue(s) in Firefox:</h2>
 (https://unix.stackexchange.com/a/226926)<br>
-Add the below to `~/.fonts.conf` <br>
+Add the below to `~/.fonts.conf`
 
 ```xml
 <?xml version='1.0'?>
