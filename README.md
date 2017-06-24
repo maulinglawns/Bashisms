@@ -53,7 +53,7 @@ Change from `cantarell` to whatever font that is easier on the eyes.
 
 <h2>Fix font issue(s) in Firefox:</h2>
 (https://unix.stackexchange.com/a/226926)<br>
-Add the below to `$HOME/.fonts.conf`:<br>
+Add the below to `$HOME/.fonts.conf` <br>
 
 ```xml
 <?xml version='1.0'?>
