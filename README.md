@@ -99,3 +99,14 @@ Browse to:
 Untick **event-sounds**
 
 Done!
+
+
+<h2>iwlwifi hacks</h2>
+<pre>
+magnus@debian-probook:~$ cat /etc/modprobe.d/iwlwifi.conf 
+# Below line is to stop wifi disconnecting at random intervals
+options iwlwifi 11n_disable=1
+# Below line is to stop the d*mn wifi led from blinking whenever there is
+# traffic over the wifi network!!!
+options iwlwifi led_mode=1
+</pre>
