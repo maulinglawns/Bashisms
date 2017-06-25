@@ -128,7 +128,7 @@ My (and original bug reporter's, thanks Uwe!) solution/workaround is:
 - Add `nomodeset` to `/etc/default/grub`:<br>
 `GRUB_CMDLINE_LINUX_DEFAULT="quiet nomodeset"`
 - Run `update grub`
-- Add this content to `/etc/X11/xorg.conf/20-intel.conf`:
+- Add this content to `/etc/X11/xorg.conf.d/20-intel.conf`:
 ```
 Section "Device"
         Identifier      "Intel Graphics"
