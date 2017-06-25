@@ -1,6 +1,7 @@
 # Bashisms
 
-**A bunch of settings and config files that I always use upon new installs.**
+**A bunch of settings and config files that I always use upon new installs.<br>
+Plus some hacks/bug fixes**
 
 --
 
