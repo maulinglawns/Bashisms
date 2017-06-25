@@ -112,3 +112,23 @@ options iwlwifi 11n_disable=1
 # traffic over the wifi network!!!
 options iwlwifi led_mode=1
 </pre>
+
+
+<h1>Debian Stretch</h1>
+On older (~2010) laptops screen goes black and is completely unresponsive.
+`journalctl` reports:
+`drm:ironlake_irq_handler [i915]] *ERROR* CPU pipe A FIFO underrun` 
+
+See this bug report: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=859639
+
+My (and original bug reporter, thanks Uwe!) solution is:
+- Add `nomodeset` to `/etc/default/grub`:
+`GRUB_CMDLINE_LINUX_DEFAULT="quiet nomodeset"`
+- Run `update grub`
+- Add this content to `/etc/X11/xorg.conf/20-intel.conf`:
+```Section "Device"
+        Identifier      "Intel Graphics"
+        Driver          "intel"
+EndSection
+```
+- Reboot
