@@ -116,7 +116,9 @@ options iwlwifi led_mode=1
 
 <h1>Debian Stretch</h1>
 On older (~2010) laptops screen goes black and is completely unresponsive.
+
 `journalctl` reports:
+
 `drm:ironlake_irq_handler [i915]] *ERROR* CPU pipe A FIFO underrun` 
 
 See this bug report: https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=859639
