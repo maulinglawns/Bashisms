@@ -36,7 +36,11 @@ set number
 set showmode
 
 " Show matching brackets
-set showmatch</pre>
+set showmatch
+
+" Disable auto-comments
+autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
+</pre>
 
 <h1>Debian GNOME</h1>
 
