@@ -21,24 +21,20 @@ PS1='${debian_chroot:+($debian_chroot)}\[\033[01;31m\]\u@\h\[\033[00m\]:\[\033[0
 --
 
 My `~/.vimrc`
-<pre>" Make tabs four spaces
-set shiftwidth=4
+<pre>set shiftwidth=4
 set tabstop=4
 set expandtab
 
-" Enable syntax coloring
-syntax enable
-
-" Show line numbers
 set number
 
-" Show which mode (not mood!) we're in
 set showmode
 
-" Show matching brackets
 set showmatch
 
-" Disable auto-comments
+" Disable highlighting
+set nohls
+
+" Disable auto commenting
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 </pre>
 
