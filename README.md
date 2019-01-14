@@ -41,6 +41,9 @@ set showmatch
 " Disable highlighting
 set nohls
 
+" Show title (of file)
+set title
+
 " Disable auto commenting
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
 </pre>
